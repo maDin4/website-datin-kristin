@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Website Sederhana</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+body {
+}
+
+        #gallery {
+            padding: 2rem;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .gallery-item {
+            text-align: center;
+        }
+
+        .gallery-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+
+    <!-- Navigasi -->
+    <section id="home">
+        <header>
+            <h1>Selamat Datang di Website Sederhana</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    </section>
+    <!-- Bagian Gallery -->
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="tm.jpg" alt="Espresso">
+                    <h3>Espresso</h3>
+                    <p>Minuman kopi murni dengan rasa yang kuat dan aroma yang khas.</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="hura.jpg" alt="Cappuccino">
+                    <h3>Cappuccino</h3>
+                    <p>Minuman kopi dengan campuran susu yang lembut dan foam tebal.</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="hh.jpg" alt="Latte">
+                    <h3>Latte</h3>
+                    <p>Kopi susu dengan rasa yang ringan dan lembut.</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="cc.jpg" alt="Macchiato">
+                    <h3>Americano</h3>
+                    <p>Espresso yang diencerkan dengan air panas untuk menghasilkan rasa yang lebih ringan.</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="bb.jpg" alt="Macchiato">
+                    <h3>Macchiato</h3>
+                    <p>Kopi dengan sedikit tambahan susu, pas untuk penggemar kopi kuat.</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="nn.jpg" alt="Macchiato">
+                    <h3>Mocha</h3>
+                    <p>Kombinasi espresso, cokelat, dan susu yang menghasilkan rasa manis dan kaya.</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="mm.jpg" alt="Macchiato">
+                    <h3>Affogato</h3>
+                    <p>Espresso yang dituangkan di atas es krim vanila, menciptakan kombinasi hangat dan dingin yang unik.</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="ss.jpg" alt="Macchiato">
+                    <h3>Flat White</h3>
+                    <p>Espresso dengan lapisan tipis buih susu, memberikan tekstur yang halus dan creamy.</p>
+                </div>
+            </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Website Sederhana. Semua Hak Cipta Dilindungi.</p>
+    </footer>
+</body>
+</html>
